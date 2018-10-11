@@ -1,0 +1,19 @@
+# java
+export JAVA_HOME="/opt/jdk"
+export JRE_HOME="/opt/jdk/jre"
+
+# hadoop
+export HADOOP_HOME="/home/admin/hadoop-2.9.1"
+export HADOOP_CONF_DIR="$HADOOP_HOME/etc/hadoop"
+
+# spark
+export SPARK_HOME=""
+
+# maven
+export MVN2_HOME="/opt/apache-maven-3.3.9"
+export MVN2="$MVN2_HOME/bin"
+
+#class path
+export PATH="$MVN2:$SPARK_HOME/bin:$JAVA_HOME/bin:$HADOOP_HOME/bin:$PATH"
+export CLASSPATH="$JAVA_HOME/lib:$SPARK_HOME/lib:$HADOOP_HOME/lib:$CLASSPATH"
+
