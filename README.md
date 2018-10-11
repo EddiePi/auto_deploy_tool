@@ -11,5 +11,6 @@ prerequisite:
 2. The master node can ssh to every worker node without password under the user account.
 
 usage:
-create-sudo-user.sh <USERNAME> <PASSWD>
-exec
+create-sudo-user.sh \<USERNAME> \<PASSWD>
+
+exec-script-all.sh \<COMMAND | SCRIPT_PATH>
